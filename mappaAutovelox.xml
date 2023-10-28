@@ -15,7 +15,7 @@
         <Latitudine>45.0727533</Latitudine>
     </rilevatore>
     <rilevatore tipo="videocamera">
-        <classe nome="5ia"></classe>
+        <classe nome="3ia"></classe>
         <Comune>COLLEGNO</Comune>
         <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
         <Regione>Piemonte</Regione>
@@ -27,7 +27,7 @@
         <Latitudine>45.0728535</Latitudine>
     </rilevatore>
     <rilevatore tipo="videocamera">
-        <classe nome="5ia"></classe>
+        <classe nome="4ia"></classe>
         <Comune>COLLEGNO</Comune>
         <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
         <Regione>Piemonte</Regione>
