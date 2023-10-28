@@ -67,8 +67,8 @@
 
   <xsl:template match="rilevatore">
     <tr>
-      <td><xsl:value-of select="classe/@nome" /></td>
-      <td><xsl:value-of select="Comune" /></td>
+      <td><xsl:value-of select="Comune/classe/@nome" /></td>
+      <td><xsl:value-of select="Comune/@nm" /></td>
       <td><xsl:value-of select="Provincia" /></td>
       <td><xsl:value-of select="Regione" /></td>
       <td><xsl:value-of select="nome" /></td>
