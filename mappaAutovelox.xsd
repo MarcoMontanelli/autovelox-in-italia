@@ -8,6 +8,15 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Comune" type="xs:string"/>
+              <xs:element name="classe">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="nome" type="xs:string" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
               <xs:element name="Provincia">
                 <xs:complexType>
                   <xs:simpleContent>

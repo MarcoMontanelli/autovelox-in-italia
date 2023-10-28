@@ -47,6 +47,7 @@
         <h1>LISTA DI AUTOVELOX ATTIVI IN ITALIA PER COMUNE, REGIONE E CON LE RELATIVE COORDINATE</h1>
         <table>
           <tr>
+            <th>Classe</th>
             <th>Comune</th>
             <th>Provincia</th>
             <th>Regione</th>
@@ -66,6 +67,7 @@
 
   <xsl:template match="rilevatore">
     <tr>
+      <td><xsl:value-of select="classe/@nome" /></td>
       <td><xsl:value-of select="Comune" /></td>
       <td><xsl:value-of select="Provincia" /></td>
       <td><xsl:value-of select="Regione" /></td>

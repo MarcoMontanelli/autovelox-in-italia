@@ -3,6 +3,7 @@
 <?xml-stylesheet type="text/xsl" href="mappaAutovelox.xsl"?>
 <autovelox_in_italia>
     <rilevatore tipo="videocamera">
+        <classe nome="5ia"></classe>
         <Comune>COLLEGNO</Comune>
         <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
         <Regione>Piemonte</Regione>
@@ -14,6 +15,7 @@
         <Latitudine>45.0727533</Latitudine>
     </rilevatore>
     <rilevatore tipo="videocamera">
+        <classe nome="5ia"></classe>
         <Comune>COLLEGNO</Comune>
         <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
         <Regione>Piemonte</Regione>
@@ -25,6 +27,7 @@
         <Latitudine>45.0728535</Latitudine>
     </rilevatore>
     <rilevatore tipo="videocamera">
+        <classe nome="5ia"></classe>
         <Comune>COLLEGNO</Comune>
         <Provincia abbreviazione = "TO">CITTA' METROPOLITANA DI TORINO</Provincia>
         <Regione>Piemonte</Regione>

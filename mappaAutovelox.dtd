@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!ELEMENT autovelox_in_italia (rilevatore+)>
-<!ELEMENT rilevatore (Comune, Provincia, Regione, nome, Anno_inserimento, Data_e_ora_inserimento, Identificatore_in_OpenStreetMap, Longitudine, Latitudine)>
+<!ELEMENT rilevatore (classe, Comune, Provincia, Regione, nome, Anno_inserimento, Data_e_ora_inserimento, Identificatore_in_OpenStreetMap, Longitudine, Latitudine)>
 <!ATTLIST rilevatore tipo CDATA #REQUIRED>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe nome CDATA #IMPLIED>
 <!ELEMENT Comune (#PCDATA)>
 <!ELEMENT Provincia (#PCDATA)>
 <!ATTLIST Provincia abbreviazione CDATA #IMPLIED>
