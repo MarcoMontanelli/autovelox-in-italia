@@ -27,6 +27,7 @@
           width: 100%;
           border-collapse: collapse;
           margin-top: 20px;
+          border-radius: 10px;
         }
         th, td {
           text-align: left;
